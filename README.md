@@ -1,16 +1,34 @@
-# skillhub
+# Code Alpha MA Tasks
 
-A new Flutter project.
+A Flutter app built for Code Alpha internship, featuring 3 integrated modules:
 
-## Getting Started
+## Modules
 
-This project is a starting point for a Flutter application.
+### 🏋️ Fitness Tracker
+- Log workouts with exercise type, duration, calories, steps
+- Dashboard with bar charts for daily calories & minutes
+- Weekly/Monthly progress tracking with SQLite storage
+- Google Fit integration option
 
-A few resources to get you started if this is your first Flutter project:
+### 🌍 Language Learning
+- 6 languages: Spanish, French, German, Italian, Japanese, Korean
+- 8 categories: Greetings, Numbers, Colors, Food, Family, Travel, Weather, Animals
+- Interactive quiz with randomized questions and scoring
+- Text-to-speech pronunciation (tap the speaker icon)
+- Quiz results saved as progress tracking
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🃏 Flashcard Quiz
+- Create, edit, and delete flashcards
+- 3D flip animation to reveal answers
+- Navigate with Previous/Next buttons
+- Categorized cards for organization
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- **Flutter** - Cross-platform UI framework
+- **SQLite** (sqflite) - Local database
+- **fl_chart** - Bar chart visualizations
+- **flutter_tts** - Text-to-speech audio
+- Dark theme with purple/blue gradient design
+
+## APK
+The release APK is available at: `build/app/outputs/flutter-apk/app-release.apk`
