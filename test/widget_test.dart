@@ -11,7 +11,7 @@ import 'package:skillhub/main.dart';
 
 void main() {
   testWidgets('App launches smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(const SkillHubApp());
-    expect(find.text('SkillHub'), findsOneWidget);
+    await tester.pumpWidget(const CodeAlphaApp());
+    expect(find.text('Code Alpha'), findsWidgets);
   });
 }

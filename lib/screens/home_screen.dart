@@ -63,10 +63,11 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  'SkillHub',
+                  'Code Alpha\nMA Tasks',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 32,
+                    fontSize: 28,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1.2,
                   ),

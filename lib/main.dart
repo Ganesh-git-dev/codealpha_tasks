@@ -9,16 +9,16 @@ void main() {
     statusBarColor: Colors.transparent,
     statusBarIconBrightness: Brightness.light,
   ));
-  runApp(const SkillHubApp());
+  runApp(const CodeAlphaApp());
 }
 
-class SkillHubApp extends StatelessWidget {
-  const SkillHubApp({super.key});
+class CodeAlphaApp extends StatelessWidget {
+  const CodeAlphaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'SkillHub',
+      title: 'Code Alpha MA Tasks',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       home: const HomeScreen(),
